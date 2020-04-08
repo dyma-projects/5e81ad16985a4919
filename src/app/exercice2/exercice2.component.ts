@@ -12,4 +12,9 @@ export class Exercice2Component implements OnInit {
   ngOnInit() {
   }
 
+  log(logString:string):void{
+    console.log(logString);
+  }
+
+
 }
